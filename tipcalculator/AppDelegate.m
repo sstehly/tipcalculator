@@ -17,10 +17,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    
 
     [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x1b7fcc)];
-
     
     
     TipViewController *vc = [[TipViewController alloc] init];
