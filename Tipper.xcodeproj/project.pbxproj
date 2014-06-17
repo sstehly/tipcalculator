@@ -19,6 +19,8 @@
 		7E691861194EBC6100847715 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E691849194EBC6100847715 /* UIKit.framework */; };
 		7E691869194EBC6100847715 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E691867194EBC6100847715 /* InfoPlist.strings */; };
 		7E69186B194EBC6100847715 /* tipcalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E69186A194EBC6100847715 /* tipcalculatorTests.m */; };
+		7E691877194EBE7F00847715 /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E691875194EBE7F00847715 /* TipViewController.m */; };
+		7E691878194EBE7F00847715 /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E691876194EBE7F00847715 /* TipViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +34,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7E691842194EBC6100847715 /* tipcalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipcalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E691842194EBC6100847715 /* Tipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E691845194EBC6100847715 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7E691847194EBC6100847715 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7E691849194EBC6100847715 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7E69184D194EBC6100847715 /* tipcalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipcalculator-Info.plist"; sourceTree = "<group>"; };
+		7E69184D194EBC6100847715 /* Tipper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tipper-Info.plist"; sourceTree = "<group>"; };
 		7E69184F194EBC6100847715 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E691851194EBC6100847715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7E691853194EBC6100847715 /* tipcalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tipcalculator-Prefix.pch"; sourceTree = "<group>"; };
+		7E691853194EBC6100847715 /* Tipper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tipper-Prefix.pch"; sourceTree = "<group>"; };
 		7E691854194EBC6100847715 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E691855194EBC6100847715 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7E691857194EBC6100847715 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7E69185D194EBC6100847715 /* tipcalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipcalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E69185D194EBC6100847715 /* TipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E69185E194EBC6100847715 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		7E691866194EBC6100847715 /* tipcalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipcalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		7E691866194EBC6100847715 /* TipperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TipperTests-Info.plist"; sourceTree = "<group>"; };
 		7E691868194EBC6100847715 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E69186A194EBC6100847715 /* tipcalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipcalculatorTests.m; sourceTree = "<group>"; };
+		7E691874194EBE7F00847715 /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		7E691875194EBE7F00847715 /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		7E691876194EBE7F00847715 /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +82,7 @@
 		7E691839194EBC6100847715 = {
 			isa = PBXGroup;
 			children = (
-				7E69184B194EBC6100847715 /* tipcalculator */,
+				7E69184B194EBC6100847715 /* Tipper */,
 				7E691864194EBC6100847715 /* tipcalculatorTests */,
 				7E691844194EBC6100847715 /* Frameworks */,
 				7E691843194EBC6100847715 /* Products */,
@@ -87,8 +92,8 @@
 		7E691843194EBC6100847715 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E691842194EBC6100847715 /* tipcalculator.app */,
-				7E69185D194EBC6100847715 /* tipcalculatorTests.xctest */,
+				7E691842194EBC6100847715 /* Tipper.app */,
+				7E69185D194EBC6100847715 /* TipperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,24 +109,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7E69184B194EBC6100847715 /* tipcalculator */ = {
+		7E69184B194EBC6100847715 /* Tipper */ = {
 			isa = PBXGroup;
 			children = (
 				7E691854194EBC6100847715 /* AppDelegate.h */,
 				7E691855194EBC6100847715 /* AppDelegate.m */,
 				7E691857194EBC6100847715 /* Images.xcassets */,
 				7E69184C194EBC6100847715 /* Supporting Files */,
+				7E691874194EBE7F00847715 /* TipViewController.h */,
+				7E691875194EBE7F00847715 /* TipViewController.m */,
+				7E691876194EBE7F00847715 /* TipViewController.xib */,
 			);
+			name = Tipper;
 			path = tipcalculator;
 			sourceTree = "<group>";
 		};
 		7E69184C194EBC6100847715 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7E69184D194EBC6100847715 /* tipcalculator-Info.plist */,
+				7E69184D194EBC6100847715 /* Tipper-Info.plist */,
 				7E69184E194EBC6100847715 /* InfoPlist.strings */,
 				7E691851194EBC6100847715 /* main.m */,
-				7E691853194EBC6100847715 /* tipcalculator-Prefix.pch */,
+				7E691853194EBC6100847715 /* Tipper-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,7 +147,7 @@
 		7E691865194EBC6100847715 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7E691866194EBC6100847715 /* tipcalculatorTests-Info.plist */,
+				7E691866194EBC6100847715 /* TipperTests-Info.plist */,
 				7E691867194EBC6100847715 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -147,9 +156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7E691841194EBC6100847715 /* tipcalculator */ = {
+		7E691841194EBC6100847715 /* Tipper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E69186E194EBC6100847715 /* Build configuration list for PBXNativeTarget "tipcalculator" */;
+			buildConfigurationList = 7E69186E194EBC6100847715 /* Build configuration list for PBXNativeTarget "Tipper" */;
 			buildPhases = (
 				7E69183E194EBC6100847715 /* Sources */,
 				7E69183F194EBC6100847715 /* Frameworks */,
@@ -159,14 +168,14 @@
 			);
 			dependencies = (
 			);
-			name = tipcalculator;
+			name = Tipper;
 			productName = tipcalculator;
-			productReference = 7E691842194EBC6100847715 /* tipcalculator.app */;
+			productReference = 7E691842194EBC6100847715 /* Tipper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7E69185C194EBC6100847715 /* tipcalculatorTests */ = {
+		7E69185C194EBC6100847715 /* TipperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E691871194EBC6100847715 /* Build configuration list for PBXNativeTarget "tipcalculatorTests" */;
+			buildConfigurationList = 7E691871194EBC6100847715 /* Build configuration list for PBXNativeTarget "TipperTests" */;
 			buildPhases = (
 				7E691859194EBC6100847715 /* Sources */,
 				7E69185A194EBC6100847715 /* Frameworks */,
@@ -177,9 +186,9 @@
 			dependencies = (
 				7E691863194EBC6100847715 /* PBXTargetDependency */,
 			);
-			name = tipcalculatorTests;
+			name = TipperTests;
 			productName = tipcalculatorTests;
-			productReference = 7E69185D194EBC6100847715 /* tipcalculatorTests.xctest */;
+			productReference = 7E69185D194EBC6100847715 /* TipperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7E69183D194EBC6100847715 /* Build configuration list for PBXProject "tipcalculator" */;
+			buildConfigurationList = 7E69183D194EBC6100847715 /* Build configuration list for PBXProject "Tipper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -208,8 +217,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E691841194EBC6100847715 /* tipcalculator */,
-				7E69185C194EBC6100847715 /* tipcalculatorTests */,
+				7E691841194EBC6100847715 /* Tipper */,
+				7E69185C194EBC6100847715 /* TipperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E691878194EBE7F00847715 /* TipViewController.xib in Resources */,
 				7E691850194EBC6100847715 /* InfoPlist.strings in Resources */,
 				7E691858194EBC6100847715 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E691856194EBC6100847715 /* AppDelegate.m in Sources */,
+				7E691877194EBE7F00847715 /* TipViewController.m in Sources */,
 				7E691852194EBC6100847715 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +268,7 @@
 /* Begin PBXTargetDependency section */
 		7E691863194EBC6100847715 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7E691841194EBC6100847715 /* tipcalculator */;
+			target = 7E691841194EBC6100847715 /* Tipper */;
 			targetProxy = 7E691862194EBC6100847715 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -358,9 +369,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "tipcalculator/tipcalculator-Prefix.pch";
-				INFOPLIST_FILE = "tipcalculator/tipcalculator-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "tipcalculator/Tipper-Prefix.pch";
+				INFOPLIST_FILE = "tipcalculator/Tipper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = Tipper;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -371,9 +383,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "tipcalculator/tipcalculator-Prefix.pch";
-				INFOPLIST_FILE = "tipcalculator/tipcalculator-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "tipcalculator/Tipper-Prefix.pch";
+				INFOPLIST_FILE = "tipcalculator/Tipper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = Tipper;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -393,8 +406,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "tipcalculatorTests/tipcalculatorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "tipcalculatorTests/TipperTests-Info.plist";
+				PRODUCT_NAME = TipperTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -411,8 +424,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tipcalculator/tipcalculator-Prefix.pch";
-				INFOPLIST_FILE = "tipcalculatorTests/tipcalculatorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "tipcalculatorTests/TipperTests-Info.plist";
+				PRODUCT_NAME = TipperTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -421,7 +434,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7E69183D194EBC6100847715 /* Build configuration list for PBXProject "tipcalculator" */ = {
+		7E69183D194EBC6100847715 /* Build configuration list for PBXProject "Tipper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E69186C194EBC6100847715 /* Debug */,
@@ -430,7 +443,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E69186E194EBC6100847715 /* Build configuration list for PBXNativeTarget "tipcalculator" */ = {
+		7E69186E194EBC6100847715 /* Build configuration list for PBXNativeTarget "Tipper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E69186F194EBC6100847715 /* Debug */,
@@ -438,7 +451,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		7E691871194EBC6100847715 /* Build configuration list for PBXNativeTarget "tipcalculatorTests" */ = {
+		7E691871194EBC6100847715 /* Build configuration list for PBXNativeTarget "TipperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E691872194EBC6100847715 /* Debug */,
