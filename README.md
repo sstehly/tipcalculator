@@ -1,3 +1,3 @@
 tipcalculator
 =============
-I've added a ReadMe!
+I've added a ReadMe! This is my first ReadMe...
